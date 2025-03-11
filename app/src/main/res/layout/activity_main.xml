@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bt_nao"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.584"
         app:layout_constraintStart_toEndOf="@+id/bt_sim"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.34"
@@ -35,16 +35,16 @@
 
     <ImageView
         android:id="@+id/bt_nao"
-        android:layout_width="244dp"
-        android:layout_height="233dp"
+        android:layout_width="231dp"
+        android:layout_height="253dp"
         android:onClick="lerTextoNao"
         android:src="@drawable/bt_nao"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bt_quero"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.6" />
 
     <ImageView
         android:id="@+id/bt_sim"
@@ -52,12 +52,12 @@
         android:layout_height="230dp"
         android:onClick="lerTextoSim"
         android:src="@drawable/bt_sim"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bt_quero"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.542" />
 
     <ImageView
         android:id="@+id/bt_quero"
@@ -67,19 +67,20 @@
         android:src="@drawable/bt_quero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <ImageView
         android:id="@+id/bt_quero_outra_imagem"
-        android:layout_width="217dp"
-        android:layout_height="87dp"
+        android:layout_width="241dp"
+        android:layout_height="95dp"
         android:onClick="lerTextoQuero"
         android:src="@drawable/quero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
